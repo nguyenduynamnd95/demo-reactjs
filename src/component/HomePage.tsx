@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
                     id="taskName"  
                     value={taskName}  
                     onChange={e => setTaskName(e.target.value)}  
-                    placeholder="Enter task name"  
+                    placeholder="Nhập task đi"  
                 />  
             </div>  
             <div className="input-row">  
@@ -36,7 +36,7 @@ const HomePage: React.FC = () => {
                 <DatePicker  
                     id="deadline"  
                     onChange={date => setDeadline(date ? date.format('YYYY-MM-DD') : null)}  
-                    placeholder="Select deadline"  
+                    placeholder="Chọn deadline"  
                 />  
             </div>  
             <div className="input-row switch-row">  
