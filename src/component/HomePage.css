@@ -1,37 +1,54 @@
-.header {  
-    font-size: 24px;  
-    margin-bottom: 20px;  
-    color: #000;  
-}  
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-.input-row {  
-    display: flex; 
-    justify-content: space-between;   
-    align-items: center;   
-    margin-bottom: 15px; 
-}  
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
 
-label {  
-    margin-right: 10px; 
-    font-weight: bold;  
-}  
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
 
-input, .ant-date-picker {  
-    flex: 1; 
-}  
+label {
+    font-weight: bold;
+    min-width: 100px; 
+}
 
-.switch-row {  
-    justify-content: space-between; 
-}  
+input, .ant-picker {
+    width: 100%;
+}
 
-.button-row {  
-    display: flex; 
-    justify-content: flex-end; 
-    margin-top: 10px; 
-}  
+.switch-row {
+    justify-content: space-between;
+}
 
-.create-button {  
-    background-color: red;  
-    color: white;  
-    width: auto; 
-}  
+.button-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.create-button {
+    background-color: red;
+    color: white;
+    width: auto;
+}
+
+.input-error {
+    border: 1px solid red !important;
+    background: #ffe6e6;
+}
+
+.error-text {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
